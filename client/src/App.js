@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Homepage from './views/Homepage';
 import QuizDetail from './views/QuizDetail';
 import QuizPortal from './views/QuizPortal';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'
 
 function App() {
   return (
